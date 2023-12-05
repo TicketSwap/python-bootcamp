@@ -122,7 +122,7 @@ Now that we have the content of this repository downloaded, we need to create a 
 
 ```
 $ cd ~/projects/python-bootcamp
-$ conda env create -n bootcamp python=3.11
+$ conda create -n bootcamp python=3.11
 ```
 
 > [!TIP]
