@@ -4,5 +4,5 @@ scipy
 matplotlib
 seaborn
 jupyter
-juoyterlab
+jupyterlab
 
