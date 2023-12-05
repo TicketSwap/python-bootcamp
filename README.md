@@ -19,7 +19,10 @@ First off: you need to have Python 3.9 or higher installed on your computer. We 
 $ python --version
 ```
 
-If you get an error message, you need to install Python. If you already have Python installed, but it is not version 3.9 or higher you should skip to the section called: "Updating Python".
+If you get an error message, you need to install Python.
+
+> [!WARNING]  
+> If you already have python installed and it's version 3.9 or higher, you should be fine. You can skip to the section Making sure you have git installed If you have an older version of Python installed, you can either update your Python version or create a new environment with Python 3.9 or higher. You can also install Anaconda and use it to manage your Python environments as well but remove any python references from your `.zshrc` files first. For managing multiple Python environments without Anaconda, I suggest reading the following [Medium article](https://medium.com/macoclock/how-to-install-and-manage-multiple-python-versions-on-macos-ca01a5e398d4). 
 
 ## Downloading Anaconda
 
@@ -152,6 +155,16 @@ Now that we have the environment set up, we need to install the dependencies. To
 ```
 $ python -m pip install -r requirements.txt
 ```
+
+# Starting Jupiter Lab
+Now that we have everything installed, we can start Jupiter Lab. To do this, make sure you have the `bootcamp` environment activated and type:
+
+```
+$ jupyter lab
+```
+
+This will open a new tab in your browser with Jupiter Lab. If you've gotten this far you're good to go!
+
 
 ## License
 
