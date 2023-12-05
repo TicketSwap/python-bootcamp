@@ -91,6 +91,7 @@ Now that we have Anaconda installed, we need to create a project folder. This is
 ```
 $ cd ~
 $ mkdir projects
+$ cd projects
 ```
 
 2. Now we need to download the content of this repository. In the same terminal, type:
