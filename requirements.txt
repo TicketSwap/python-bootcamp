@@ -1,8 +1,8 @@
-numpy==1.11.1
-pandas==0.18.1
-scipy==0.17.1
-matplotlib==1.5.1
-seaborn==0.7.0
+numpy
+pandas
+scipy
+matplotlib
+seaborn
 jupyter
 juoyterlab
 
